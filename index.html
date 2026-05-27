@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" placeholder="Enter Full Name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter Email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter Password"><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter Phone Number"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <label>Course:</label><br>
+        <select name="course">
+            <option value="">--Select Course--</option>
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30" placeholder="Enter Address"></textarea><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <h2>Student Data Table</h2>
+
+<table border="1" cellpadding="10">
+
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>City</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Rahul Sharma</td>
+        <td>BCA</td>
+        <td>Pune</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Priya Patel</td>
+        <td>MBA</td>
+        <td>Mumbai</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Amit Kumar</td>
+        <td>B.Tech</td>
+        <td>Delhi</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Sneha Joshi</td>
+        <td>MCA</td>
+        <td>Nagpur</td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>
